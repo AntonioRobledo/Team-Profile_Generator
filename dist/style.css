@@ -1,0 +1,19 @@
+#header {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.card-header {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.card {
+    margin: 15px;
+}
+
