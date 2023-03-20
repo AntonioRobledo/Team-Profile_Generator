@@ -6,7 +6,7 @@ describe('Manager', () => {
             const Manager = new manager('Antonio', 50499269, 'robledoy@uci.edu', 404)
 
             expect(Manager.name).toEqual('Antonio');
-            expect(Manager.id).toEqual('50499269');
+            expect(Manager.id).toEqual(50499269);
             expect(Manager.email).toEqual('robledoy@uci.edu');
             expect(Manager.officeNumber).toEqual(404);
         })
