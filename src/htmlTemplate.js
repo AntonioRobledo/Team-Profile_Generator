@@ -48,7 +48,7 @@ const internProfile = intern =>
         <ul class="list-group list-group">
             <li class="list-group-item">ID: <span class="id">${intern.getId()}</span></li>
             <li class="list-group-item">Email: <a href="${intern.getEmail()}" class="email">${intern.getEmail()}</a></li>
-            <li class="list-group-item">Office Number: <span class="officeNumber">${intern.getSchool()}</span></li>
+            <li class="list-group-item">School: <span class="School">${intern.getSchool()}</span></li>
         </ul>
     </div>
 </div>
